@@ -15,9 +15,9 @@ $player - プレイヤーのオブジェクト
 $until - BANの期限(unix time)
 
 $autoBan - これを実行した際にキックするか (true/false)
-
-
-
+<br>
+<br>
+<br>
 返り値: (true/null)
 
 true: 成功
