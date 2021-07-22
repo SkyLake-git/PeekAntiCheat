@@ -1,5 +1,4 @@
-# APIについて
-他のプラグインから、PeekAntiCheatの機能を使用したりすることができます。
+# 基本的なAPIのドキュメント
 
 todo:
 - [x] Basic API
