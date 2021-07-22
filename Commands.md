@@ -8,7 +8,7 @@
 ## フォーマットについて
 
 date: dateフォーマットが指定されている場合は、**数-種類** の形で引数を渡します。  
-例: `/unique-ban Lyrica0954 generic_reason 1-y 10-mo 31-d 60-m 30-s`(1年10ヵ月31日60分30秒) 
+例: `/unique-ban Lyrica0954 generic_reason 1-y 10-mo 31-d 60-min 30-s`(1年10ヵ月31日60分30秒) 
 
 ### /pac check
 構文: `/pac check @{player}`  
