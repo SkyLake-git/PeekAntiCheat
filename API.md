@@ -51,7 +51,7 @@ PeekAntiCheat::getBanData();
 PeekAntiCheat::addKickPlayer($player, "キックの理由");
 ```
 
-$player - プレイヤーのオブジェクト
+$player - プレイヤーのオブジェクト  
 
 返り値: なし
 
@@ -67,8 +67,8 @@ PeekAntiCheat::getPlayerChecks();
 PeekAntiCheat::disablePlayerTest($player, "チェックの名前", $seconds);
 ```
 
-$player - プレイヤーのオブジェクト
-$seconds - 無効にする秒数
+$player - プレイヤーのオブジェクト  
+$seconds - 無効にする秒数  
 
 返り値: なし
 
@@ -77,8 +77,8 @@ $seconds - 無効にする秒数
 PeekAntiCheat::setPlayerKick($player, $kick);
 ```
 
-$player - プレイヤーのオブジェクト
-$kick - (true/false)
+$player - プレイヤーのオブジェクト  
+$kick - (true/false)  
 
 返り値: なし
 
@@ -87,8 +87,8 @@ $kick - (true/false)
 PeekAntiCheat::setPlayerTest($player, $test);
 ```
 
-$player - プレイヤーのオブジェクト
-$test - (true/false)
+$player - プレイヤーのオブジェクト  
+$test - (true/false)  
 
 返り値: なし
 
@@ -97,8 +97,8 @@ $test - (true/false)
 PeekAntiCheat::setPlayerSetback($player, $setback);
 ```
 
-$player - プレイヤーのオブジェクト
-$setback - (true/false)
+$player - プレイヤーのオブジェクト  
+$setback - (true/false)  
 
 返り値: なし
 
@@ -107,7 +107,7 @@ $setback - (true/false)
 PeekAntiCheat::getPlayerDevice($player);
 ```
 
-$player - プレイヤーのオブジェクト
+$player - プレイヤーのオブジェクト  
 
 返り値: デバイスの種類
 
@@ -116,7 +116,7 @@ $player - プレイヤーのオブジェクト
 PeekAntiCheat::getPlayerClientData($player);
 ```
 
-$player - プレイヤーのオブジェクト
+$player - プレイヤーのオブジェクト  
 
 返り値: クライアントデータ
 
@@ -125,8 +125,8 @@ $player - プレイヤーのオブジェクト
 PeekAntiCheat::spawnWatchdogTo($player, $silent);
 ```
 
-$player - プレイヤーのオブジェクト
-$silent - 通知を表示しないか (true/false)
+$player - プレイヤーのオブジェクト  
+$silent - 通知を表示しないか (true/false)  
 
 返り値: なし
 
