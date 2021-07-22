@@ -42,9 +42,9 @@
  
 ## 作成者
  
-* Lyrica0954
-* Discord: SkyLake#3753
-* Twitter: @sharrp_c
+* Lyrica0954  
+ Discord: SkyLake#3753  
+ Twitter: @sharrp_c
  
 ## ライセンス
 GNU General Public License v3.0
