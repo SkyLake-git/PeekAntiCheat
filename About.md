@@ -20,15 +20,15 @@
 * Through Block
 * Hitbox
 * NoFall
-* ForceMove
+* ForceMove *
 * NoSlow
 * Strafe *
 * Fly
 * Glide
 * Timer *
-* AutoJump
+* AutoJump *
 * JetPack
-* CivBreak
+* CivBreak *
 * InstantBreak
 * BlockReach(place,break)
 * Scaffold *
