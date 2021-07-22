@@ -1,6 +1,11 @@
 # APIについて
 他のプラグインから、PeekAntiCheatの機能を使用したりすることができます。
 
+todo:
+- [x] Basic API
+- [ ] Advanced API
+
+
 クラスを使います。
 ```
 use Lyrica0954\PeekAntiCheat\api\PeekAntiCheat;
@@ -10,16 +15,12 @@ use Lyrica0954\PeekAntiCheat\api\PeekAntiCheat;
 ```
 PeekAntiCheat::addBanPlayer($player, "BANの理由", "BANしたプレイヤーの名前(なんでもok)", $until, $autoBan);
 ```
-$player - プレイヤーのオブジェクト
-
-$until - BANの期限(unix time)
-
+$player - プレイヤーのオブジェクト  
+$until - BANの期限(unix time)  
 $autoBan - これを実行した際にキックするか (true/false)  
-返り値: (true/null)
-
-true: 成功
-
-null: プレイヤーがまだサーバーに参加していない、またはプレイヤーチェックが無効化されている
+返り値: (true/null)  
+true: 成功  
+null: プレイヤーがまだサーバーに参加していない、またはプレイヤーチェックが無効化されている  
 
 ## プレイヤーのUnique-BANを解除する
 ```
