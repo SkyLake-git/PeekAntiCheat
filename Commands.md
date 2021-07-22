@@ -12,7 +12,7 @@ date: §fdateフォーマットが指定されている場合は、§l数-種類
 
 ### /pac check
 構文: `/pac check @{player}`  
-説明: §7アンチチートがプレイヤーをチェックするかを切り替えます
+説明: アンチチートがプレイヤーをチェックするかを切り替えます
 
 ### /pac notify
 構文: `/pac notify @{player}`  
