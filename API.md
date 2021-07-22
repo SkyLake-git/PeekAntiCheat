@@ -17,7 +17,8 @@ PeekAntiCheat::addBanPlayer($player, "BANの理由", "BANしたプレイヤー�
 ```
 $player - プレイヤーのオブジェクト  
 $until - BANの期限(unix time)  
-$autoBan - これを実行した際にキックするか (true/false)    
+$autoBan - これを実行した際にキックするか (true/false)  
+
 返り値: (true/null)  
 true: 成功  
 null: プレイヤーがまだサーバーに参加していない、またはプレイヤーチェックが無効化されている  
