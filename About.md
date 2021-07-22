@@ -1,6 +1,7 @@
-# EchoreAntiCheat
+# PeekAntiCheat
  
-プライベートのEchoreサーバー用アンチチートです。
+特にいう事もないごく普通のアンチチートです。
+少し誤検知多めです。
  
 ## 対策しているハックの種類
 
@@ -46,4 +47,4 @@
 * Twitter: @sharrp_c
  
 ## ライセンス
-GNU
+GNU General Public License v3.0
