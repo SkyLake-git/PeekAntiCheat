@@ -1,4 +1,5 @@
 # PeekAntiCheat
 
-APIについて     > [Click here](./API.md)  
-コマンドについて > [Click here](./Commands.md)
+PeekAntiCheatについて: [Click here](./About.md)
+APIドキュメント: [Click here](./API.md)  
+コマンド一覧: [Click here](./Commands.md)
