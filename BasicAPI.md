@@ -10,7 +10,7 @@ todo:
 use Lyrica0954\PeekAntiCheat\api\PeekAntiCheat;
 ```
 
-## プレイヤーをUnqiue-BANする
+## プレイヤーをUnique-BANする
 ```
 PeekAntiCheat::addBanPlayer($player, "BANの理由", "BANしたプレイヤーの名前(なんでもok)", $until, $autoBan);
 ```
