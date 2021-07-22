@@ -17,7 +17,7 @@ PeekAntiCheat::addBanPlayer($player, "BANの理由", "BANしたプレイヤー�
 ```
 $player - プレイヤーのオブジェクト  
 $until - BANの期限(unix time)  
-$autoBan - これを実行した際にキックするか (true/false)  
+$autoBan - これを実行した際にキックするか (true/false)    
 返り値: (true/null)  
 true: 成功  
 null: プレイヤーがまだサーバーに参加していない、またはプレイヤーチェックが無効化されている  
@@ -27,17 +27,16 @@ null: プレイヤーがまだサーバーに参加していない、または�
 PeekAntiCheat::removeBanPlayer("プレイヤーの名前またはBANのid");
 ```
 
-返り値: (true/false)
-true: 成功
-false: 失敗
+返り値: (true/false)  
+true: 成功  
+false: 失敗  
 
 ## プレイヤーのチェックオブジェクトを取得する
 ```
 PeekAntiCheat::getPlayerCheck($player);
 ```
-$player - プレイヤーのオブジェクト
-
-帰り値: PlayerCheck(Lyrica0954\PeekAntiCheat\PlayerCheck) オブジェクト
+$player - プレイヤーのオブジェクト  
+帰り値: PlayerCheck(Lyrica0954\PeekAntiCheat\PlayerCheck) オブジェクト  
 
 ## Unique-BANされているプレイヤーのデータを全て取得
 ```
