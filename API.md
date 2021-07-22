@@ -5,7 +5,7 @@ todo:
 - [x] Basic API
 - [ ] Advanced API
 
-
+***
 クラスを使います。
 ```
 use Lyrica0954\PeekAntiCheat\api\PeekAntiCheat;
@@ -37,7 +37,7 @@ false: 失敗
 PeekAntiCheat::getPlayerCheck($player);
 ```
 $player - プレイヤーのオブジェクト  
-帰り値: PlayerCheck(Lyrica0954\PeekAntiCheat\PlayerCheck) オブジェクト  
+返り値: PlayerCheck(Lyrica0954\PeekAntiCheat\PlayerCheck) オブジェクト  
 
 ## Unique-BANされているプレイヤーのデータを全て取得
 ```
@@ -130,5 +130,4 @@ $silent - 通知を表示しないか (true/false)
 
 返り値: なし
 
-返り値: デバイスの種類
 
