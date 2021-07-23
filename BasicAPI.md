@@ -61,9 +61,20 @@ PeekAntiCheat::getPlayerCheck($player);
 $player - プレイヤーのオブジェクト  
 返り値: PlayerCheck(Lyrica0954\PeekAntiCheat\PlayerCheck) オブジェクト  
 
+## Unique-BANされているプレイヤーのデータを取得
+```
+PeekAntiCheat::getBanData($player_name);
+```
+
+$player_name - プレイヤー名  
+
+返り値: ($banData/null)  
+$banData - Unique-BANのデータ  
+null - 見つからなかった  
+
 ## Unique-BANされているプレイヤーのデータを全て取得
 ```
-PeekAntiCheat::getBanData();
+PeekAntiCheat::getBans();
 ```
 
 返り値: Array
