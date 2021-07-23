@@ -18,8 +18,8 @@ $player - プレイヤーのオブジェクト
 $until - BANの期限(unix time)  
 $autoBan - これを実行した際にキックするか (true/false)  
 
-返り値: (true/null)  
-true: 成功  
+返り値: ($banid/null)  
+$banid: Unique-BANのid    
 null: プレイヤーがまだサーバーに参加していない、またはプレイヤーチェックが無効化されている  
 
 ## プレイヤーのUnique-BANデータを検索して取得する
