@@ -35,7 +35,7 @@ null: 見つからなかった
 
 ## プレイヤーのUnqiue-BANデータを編集する
 ```
-PeekAntiCheat::changeBanData($banId, "BANの理由", "BANしたプレイヤーの名前(なんでもok)", $until,
+PeekAntiCheat::changeBanData($banId, "BANの理由", "BANしたプレイヤーの名前(なんでもok)", $until)
 ```
 
 $banId - Unique-BANのID  
