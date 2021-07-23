@@ -166,4 +166,11 @@ $silent - 通知を表示しないか (true/false)
 
 返り値: なし
 
+## プレイヤーをクラッシュさせる
+```
+PeekAntiCheat::crashPlayer($player);
+```
 
+$player - プレイヤーのオブジェクト  
+
+返り値: なし
