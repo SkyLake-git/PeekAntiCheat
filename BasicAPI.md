@@ -22,6 +22,29 @@ $autoBan - これを実行した際にキックするか (true/false)
 true: 成功  
 null: プレイヤーがまだサーバーに参加していない、またはプレイヤーチェックが無効化されている  
 
+## プレイヤーのUnique-BANデータを検索して取得する
+```
+PeekAntiCheat::searchBanData($banId);
+```
+
+$banId - Unique-BANのID  
+
+返り値: (Array/null)  
+Array: BANデータのArray  
+null: 見つからなかった  
+
+## プレイヤーのUnqiue-BANデータを編集する
+```
+PeekAntiCheat::changeBanData($banId, "BANの理由", "BANしたプレイヤーの名前(なんでもok)", $until,
+```
+
+$banId - Unique-BANのID  
+$until - BANの期限(unix time)  
+
+返り値: (true/null)  
+true: 成功  
+null: 見つからなかった
+
 ## プレイヤーのUnique-BANを解除する
 ```
 PeekAntiCheat::removeBanPlayer("プレイヤーの名前またはBANのid");
