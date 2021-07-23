@@ -24,10 +24,10 @@ null: プレイヤーがまだサーバーに参加していない、または�
 
 ## プレイヤーのUnique-BANデータを検索して取得する
 ```
-PeekAntiCheat::searchBanData($banId);
+PeekAntiCheat::searchBanData($info);
 ```
 
-$banId - Unique-BANのID  
+$info - Unique-BANのIDまたはプレイヤー名  
 
 返り値: (Array/null)  
 Array: BANデータのArray  
@@ -35,10 +35,10 @@ null: 見つからなかった
 
 ## プレイヤーのUnqiue-BANデータを編集する
 ```
-PeekAntiCheat::changeBanData($banId, "BANの理由", "BANしたプレイヤーの名前(なんでもok)", $until)
+PeekAntiCheat::changeBanData($bps, "BANの理由", "BANしたプレイヤーの名前(なんでもok)", $until)
 ```
 
-$banId - Unique-BANのID  
+$bps - Unique-BANのIDまたはプレイヤー名  
 $until - BANの期限(unix time)  
 
 返り値: (true/null)  
@@ -59,14 +59,17 @@ false: 失敗
 PeekAntiCheat::getPlayerCheck($player);
 ```
 $player - プレイヤーのオブジェクト  
-返り値: PlayerCheck(Lyrica0954\PeekAntiCheat\PlayerCheck) オブジェクト  
+
+返り値: (PlayerCheck/null)  
+PlayerCheck - PlayerCheck(Lyrica0954\PeekAntiCheat\PlayerCheck) オブジェクト  
+null - プレイヤーがまだサーバーに参加していない、またはプレイヤーチェックが無効化されている
 
 ## Unique-BANされているプレイヤーのデータを取得
 ```
-PeekAntiCheat::getBanData($player_name);
+PeekAntiCheat::getBanData($bps);
 ```
 
-$player_name - プレイヤー名  
+$bps - Unqiue-BANのIDまたはプレイヤー名  
 
 返り値: ($banData/null)  
 $banData - Unique-BANのデータ  
