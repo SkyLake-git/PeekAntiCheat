@@ -14,6 +14,10 @@ date: dateフォーマットが指定されている場合は、**数-種類** �
 構文: `/wdr <player>`  
 説明: 指定したプレイヤーにWatchdogを出現させることができます
 
+### /loadconfig
+構文: `/loadconfig`  
+説明: PeekAntiCheatの設定を再読み込みすることができます
+
 ### /pac check
 構文: `/pac check @{player}`  
 説明: アンチチートがプレイヤーをチェックするかを切り替えます
