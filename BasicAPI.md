@@ -10,6 +10,24 @@ todo:
 use Lyrica0954\PeekAntiCheat\api\PeekAntiCheat;
 ```
 
+## アンチチートの検出通知をオンにしているプレイヤーにメッセージを送信する
+```
+PeekAntiCheat::adminMessage($message);
+```
+
+$message - 送信したいメッセージ  
+  
+返り値: なし
+
+## 情報の通知をオンにしているプレイヤーにメッセージを送信する
+```
+PeekAntiCheat::Message($message);
+```
+
+$message - 送信したいメッセージ  
+  
+返り値: なし
+
 ## プレイヤーをUnique-BANする
 ```
 PeekAntiCheat::addBanPlayer($player, "BANの理由", "BANしたプレイヤーの名前(なんでもok)", $until, $autoBan);
