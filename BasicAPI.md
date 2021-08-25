@@ -21,7 +21,7 @@ $message - 送信したいメッセージ
 
 ## 情報の通知をオンにしているプレイヤーにメッセージを送信する
 ```
-PeekAntiCheat::Message($message);
+PeekAntiCheat::infoMessage($message);
 ```
 
 $message - 送信したいメッセージ  
