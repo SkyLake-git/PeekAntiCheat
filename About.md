@@ -28,7 +28,6 @@
 
 #### KillAura
 * KillAura (3 checks)
-* TargetStrafe (1 check)
 * AutoClicker (3 checks)
 * Aimbot (1 check)
 * Reach (1 check)
