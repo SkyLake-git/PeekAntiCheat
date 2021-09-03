@@ -44,7 +44,7 @@
 * Nuker (1 check)
 * AirPlace (1 check)
 
-#### InventoryAction
+#### InventoryAction - 削除するかも
 * InventoryCleaner (1 check)*
 * InventoryManager (1 check)*
 * ChestStealer (1 check)*
