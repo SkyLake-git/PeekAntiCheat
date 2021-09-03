@@ -21,7 +21,6 @@
 * Fly (6 checks)
 * JetPack (1 check)
 * Glide (1 check)
-* Timer (1 check)*
 
 #### Strafe
 * Strafe (3 checks) *
