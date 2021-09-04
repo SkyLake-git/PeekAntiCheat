@@ -8,17 +8,17 @@
 \*がついているものは誤検知の可能性あり
 
 #### BunnyHop
-* LongJump (1 check)
-* HighJump (1 check)
-* BunnyHop (3 checks)
+* LongJump (1 check)*
+* HighJump (1 check)*
+* BunnyHop (3 checks)*
 
 #### Speed
-* Speed (4 checks)
+* Speed (4 checks)*
 * AutoJump (1 check)*
 * NoSlow (2 checks)
 
 #### Fly
-* Fly (6 checks)
+* Fly (6 checks)*
 * JetPack (1 check)
 * Glide (1 check)
 
@@ -26,12 +26,12 @@
 * Strafe (3 checks) *
 
 #### KillAura
-* KillAura (3 checks)
+* KillAura (3 checks)*
 * AutoClicker (3 checks)
 * Aimbot (1 check)
-* Reach (1 check) - がばがば
-* Through Block (1 check) - がばがば
-* Hitbox (2 checks)
+* Reach (1 check)* - がばがば
+* Through Block (1 check)* - がばがば
+* Hitbox (2 checks)*
 
 #### ForceMove
 * ForceMove (1 check) *
@@ -39,7 +39,7 @@
 #### BlockAction
 * CivBreak (1 check)*
 * InstantBreak (1 check)
-* BlockReach(place,break) (2 checks)
+* BlockReach(place,break) (2 checks)*
 * Scaffold (1 check)*
 * Nuker (1 check)
 * AirPlace (1 check)
