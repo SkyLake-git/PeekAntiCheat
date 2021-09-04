@@ -28,7 +28,7 @@
 #### KillAura
 * KillAura (3 checks)*
 * AutoClicker (3 checks)
-* Aimbot (1 check)
+* Aimbot (1 check) - がばがば
 * Reach (1 check)* - がばがば
 * Through Block (1 check)* - がばがば
 * Hitbox (2 checks)*
