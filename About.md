@@ -7,6 +7,7 @@
 
 \*がついているものは誤検知の可能性あり
 
+### Movement
 #### BunnyHop
 * LongJump (1 check)*
 * HighJump (1 check)*
@@ -25,6 +26,10 @@
 #### Strafe
 * Strafe (3 checks) *
 
+#### ForceMove
+* ForceMove (1 check) *
+
+### Combat
 #### KillAura
 * KillAura (3 checks)*
 * AutoClicker (3 checks)
@@ -33,9 +38,8 @@
 * Through Block (1 check)* - がばがば
 * Hitbox (2 checks)*
 
-#### ForceMove
-* ForceMove (1 check) *
 
+### Block
 #### BlockAction
 * CivBreak (1 check)*
 * InstantBreak (1 check)
@@ -44,14 +48,17 @@
 * Nuker (1 check)
 * AirPlace (1 check)
 
+### Inventory
 #### InventoryAction - 削除するかも
 * InventoryCleaner (1 check)*
 * InventoryManager (1 check)*
 * ChestStealer (1 check)*
 
+### Packet
 #### BadPackets
 * BadPackets (3 checks)
 
+### Chat
 #### ChatAction
 * Spammer (2 checks)
 
