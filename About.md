@@ -28,8 +28,8 @@
 #### Strafe
 * Strafe (3 checks) *
 
-#### ForceMove(AntiImmobile)
-* ForceMove (1 check) *
+#### AntiImmobile
+* AntiImmobile (1 check) *
 
 #### Blink (テスト)
 * Blink (1 check)*
