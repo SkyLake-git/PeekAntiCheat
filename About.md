@@ -10,8 +10,10 @@
 ### Movement
 #### BunnyHop
 * LongJump (1 check)*
-* HighJump (1 check)*
+* HighJump (2 check)*
 * BunnyHop (3 checks)*
+* AirJump (1 check)
+* WaterJump (1 check)
 
 #### Speed
 * Speed (4 checks)*
@@ -26,12 +28,15 @@
 #### Strafe
 * Strafe (3 checks) *
 
-#### ForceMove
+#### ForceMove(AntiImmobile)
 * ForceMove (1 check) *
+
+#### Blink
+* Blink (1 check)*
 
 ### Combat
 #### KillAura
-* KillAura (3 checks)*
+* KillAura (4 checks) +1 WIP* 
 * AutoClicker (3 checks)
 * Aimbot (1 check) - がばがば
 * Reach (1 check)* - がばがば
@@ -56,18 +61,17 @@
 
 ### Packet
 #### BadPackets
-* BadPackets (3 checks)
+* BadPackets (4 checks) +1 WIP
 
 ### Chat
 #### ChatAction
 * Spammer (2 checks)
 
-#### WIP
-* Blink **WIP**
+### WIP
 * Velocity **WIP**
 * AimAssist **WIP**
 
-現在は30(+3)種類のハックに対応しています。
+現在は31(+2 WIP)種類のハックに対応しています。
  
  
 ## 作成者
