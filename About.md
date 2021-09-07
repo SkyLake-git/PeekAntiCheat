@@ -31,7 +31,7 @@
 #### ForceMove(AntiImmobile)
 * ForceMove (1 check) *
 
-#### Blink
+#### Blink (テスト)
 * Blink (1 check)*
 
 ### Combat
