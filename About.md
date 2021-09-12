@@ -11,7 +11,7 @@
 #### BunnyHop
 * LongJump (1 check)*
 * HighJump (2 check)*
-* BunnyHop (3 checks)*
+* BunnyHop (4 checks)*
 * AirJump (1 check)
 * WaterJump (1 check)
 
@@ -21,7 +21,7 @@
 * NoSlow (2 checks)
 
 #### Fly
-* Fly (6 checks)*
+* Fly (6 checks)* + 1 WIP
 * JetPack (1 check)
 * Glide (1 check)
 
